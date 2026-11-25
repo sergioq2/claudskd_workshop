@@ -1,0 +1,10 @@
+[project]
+name = "agente-datos-colombia"
+version = "1.0.0"
+description = "Agente con el Claude Agent SDK que trabaja con datos abiertos de Colombia (datos.gov.co)"
+requires-python = ">=3.10"
+dependencies = [
+    "claude-agent-sdk>=0.2.172",
+    "httpx>=0.27",
+    "python-dotenv>=1.0",
+]

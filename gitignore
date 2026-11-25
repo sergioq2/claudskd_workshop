@@ -1,0 +1,17 @@
+# Secretos: nunca subas tus llaves
+.env
+
+# IDs del agente en Managed Agents (son de tu cuenta)
+.managed.json
+
+# Lo que produce el agente
+salidas/
+
+# Python y uv
+__pycache__/
+*.pyc
+.venv/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
